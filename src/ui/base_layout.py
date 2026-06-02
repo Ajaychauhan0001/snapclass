@@ -6,6 +6,12 @@ def style_background_home():
             .stApp {
                 background-color: #5865F2 !important;
             }
+            
+            .stApp div[data-testid="stColumn"]{
+                background-color:#E0E3FF !important;
+                padding:2rem !important;
+                border-radius: 5rem !important;
+                }
         </style>
     """, unsafe_allow_html=True) 
 
@@ -41,8 +47,8 @@ def style_base_layout():
         
         h2 {
             font-family: 'Climate Crisis', sans-serif !important;
-            font-size: 3.5rem !important;
-            line-height: 1.1 !important;
+            font-size: 2rem !important;
+            line-height: 0.9 !important;
             margin-bottom: 0rem !important;
             /* color: #E0E3FF !important; */
         }
@@ -54,7 +60,7 @@ def style_base_layout():
         st.button {
             border-radius: 1.5rem !important;
             background: #5865F2 !important;
-            color: white !important;
+            color: #EB459E !important;
             padding: 10px 20px !important; 
             border: none !important;
             transition: transform 0.25s ease-in-out !important;
@@ -63,7 +69,7 @@ def style_base_layout():
         st.button[data-testid="baseButton-secondary"] {
             border-radius: 1.5rem !important;
             background: #EB459E !important;
-            color: white !important;
+            color: #EB459E !important;
             padding: 10px 20px !important; 
             border: none !important;
             transition: transform 0.25s ease-in-out !important;
@@ -72,7 +78,7 @@ def style_base_layout():
         st.button[data-testid="baseButton-tertiary"] {
             border-radius: 1.5rem !important;
             background: black !important;
-            color: white !important;
+            color: #EB459E !important;
             padding: 10px 20px !important; 
             border: none !important;
             transition: transform 0.25s ease-in-out !important;
