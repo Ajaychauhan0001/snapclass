@@ -1,21 +1,21 @@
 import streamlit as st
 
-from src.screen.home_screen import home_screen
-from src.screen.student_screen import student_screen
-from src.screen.teachers_screen import teacher_screen
+from src.screen.home_screen import Home_screen
+from src.screen.Student_screen import Student_screen
+from src.screen.Teachers_screen import Teacher_screen
 
 def main():
     if 'login_type' not in st.session_state:
         st.session_state['login_type'] = None
         
     match st.session_state['login_type']:
-        case 'teacher':
-            teacher_screen()
+        case 'Teacher':
+            Teacher_screen()
             
-        case 'student':
-            student_screen()
+        case 'Student':
+            Student_screen()
             
         case None:
-            home_screen()        
+            Home_screen()        
             
 main()
