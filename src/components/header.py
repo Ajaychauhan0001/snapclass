@@ -3,7 +3,7 @@ import streamlit as st
 import base64
 import os
 
-LOGO_PATH = r"C:\Users\pc\Downloads\ChatGPT Image May 30, 2026, 09_17_33 PM.png"
+LOGO_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "assets", "logo.png")
 
 def _get_encoded_logo():
     with open(LOGO_PATH, "rb") as f:
