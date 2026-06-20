@@ -1,18 +1,17 @@
-#untitled
+streamlit
+
 numpy
 pandas
+opencv-python
 
-#face recoginition
-scikit-learn
-dlib-bin
+insightface
+onnxruntime
 
-
-git+https://github.com/ageitgey/face_recognition_models
-setuptools
-
-supabase 
- bcrypt
+supabase
+bcrypt
 segno
 pillow
 
-streamlit
+
+librosa
+resemblyzer

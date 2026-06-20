@@ -3,7 +3,7 @@ import base64
 from pathlib import Path
 
 def footer_home():
-    logo_path = r"C:\Users\pc\Downloads\Gemini_Generated_Image_e2zkzfe2zkzfe2zk.png"
+    logo_path = r"C:\Users\pc\OneDrive\Pictures\Screenshots\Screenshot 2026-06-12 190303.png"
     
     with open(logo_path, "rb") as f:
         encoded = base64.b64encode(f.read()).decode()
@@ -18,7 +18,7 @@ def footer_home():
     
     
 def footer_dashboard():
-    logo_path = r"C:\Users\pc\Downloads\Gemini_Generated_Image_e2zkzfe2zkzfe2zk.png"
+    logo_path = r"C:\Users\pc\OneDrive\Pictures\Screenshots\Screenshot 2026-06-12 190303.png"
     
     with open(logo_path, "rb") as f:
         encoded = base64.b64encode(f.read()).decode()
