@@ -12,7 +12,7 @@ def get_local_ip():
 
 @st.dialog("Share Subject")
 def share_subject_dialog(subject_name, subject_code):
-    app_domain = "snapclass-main.streamlit.app"
+    app_domain = "snapclass-branch.streamlit.app"
     # local_ip = get_local_ip()
     # FIX 1: use local IP instead of localhost so phones can reach it
     # FIX 2: param name is 'join-code' not 'join_code'
